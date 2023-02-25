@@ -19,9 +19,5 @@ Teacher.prototype.teach = function (sub){
 Object.setPrototypeOf(Teacher.prototype,Person.prototype);
 
 var him = new Teacher('mumbai');
-console.log("test 1",Object.getPrototypeOf(Teacher));
-
-console.log("test 2",him);
 him.initialize('sid',23);
-console.log("test 3",him);
-console.log(him.teach('math'));
+him.teach('math');
