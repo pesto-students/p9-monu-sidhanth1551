@@ -1,0 +1,53 @@
+.container {
+    justify-content: center;
+    display: flex;
+  }
+  .box {
+    position: absolute;
+  }
+  .c {
+    margin-left: 80px;
+    margin-top: 70px;
+  }
+  .main {
+    margin-left: 200px;
+  }
+  .red {
+    background-color: red;
+    transition-duration: 1s;
+    transition-property: all;
+  }
+  .yellow {
+    background-color: yellow;
+    transition-duration: 1s;
+    transition-property: all;
+  }
+  .blue {
+    background-color: blue;
+    transition-duration: 1s;
+    transition-property: all;
+  }
+  .green {
+    background-color: green;
+    transition-duration: 1s;
+    transition-property: all;
+  }
+  
+  .container > div {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .a:hover .red {
+    transform: rotateZ(90deg) translateY(100px);
+  }
+  .a:hover .yellow {
+    transform: rotateZ(-90deg) translateY(100px);
+  }
+  .a:hover .green {
+    transform: rotateZ(90deg) translateY(-100px);
+  }
+  .a:hover .blue {
+    transform: rotateZ(-90deg) translateY(-100px);
+  }
+  

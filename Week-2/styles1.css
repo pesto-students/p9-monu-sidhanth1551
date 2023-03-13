@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    justify-content: center;
+  }
+  .left-box {
+    display: flex;
+    max-width: 48%;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10px;
+  }
+  .right-box {
+    max-width: 48%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+  }
+  img {
+    max-width: 200px;
+  }
+  
+  article {
+    margin-bottom: 40px;
+    margin-top: 8px;
+  }
+  .box {
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 50px;
+    justify-content: center;
+    /* height: 200px; */
+  }
+  .forms {
+    margin-left: 60px;
+  }
+  
