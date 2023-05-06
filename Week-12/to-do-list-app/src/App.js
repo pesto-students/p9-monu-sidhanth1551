@@ -12,7 +12,6 @@ function App() {
   
   //Function to update text when clicked on ADD button
   const handleText = (event)=> {
-        console.log(event.target.value)
         setText(event.target.value);
   }
   
@@ -26,7 +25,6 @@ function App() {
 
  //Function when clicked on checkbox item to remove
   const checkedItem = (id) => {
-     console.log(id,'delete')
      setList((old)=> {
        return old.filter((arrElement, index)=> {
         return index!==id;
