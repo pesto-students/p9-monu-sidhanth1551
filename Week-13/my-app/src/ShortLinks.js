@@ -12,7 +12,6 @@ const shortLinks = (props)=> {
     return (
         <> 
         {props.list.map((card,index)=> {
-            {console.log(card)}
             return (
             <div className="shortDivs1">
                <div className="shortDivs2">
