@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+}
+.mainBlock{
+    display: flex;
+    height: 100vh;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+}
+
+.centerBlock {
+
+    width: 30%;
+    height: 80vh;
+    background-color: rgb(239, 214, 178);
+    box-shadow: 5px 5px 25px -10px rgba(0,0,0,0.5);
+    border-radius: 1rem;
+}
+
+h1{
+    color:rgb(73, 72, 71);
+    background-color:rgb(239, 200, 145);
+    padding: 15px 0px;
+}
+
+input{
+     border: none;
+     text-align: center;
+     background: transparent;
+     outline: none;
+     border-bottom: 2px solid rgb(73, 72, 71);
+     height: 30px;
+     font-size: large;
+     font-weight: 400;
+     width: 60%;
+}
+button{
+    /* border: none; */
+    background-color: transparent;
+    font-weight: 200;
+    height: 30px;
+    width: 23%;
+    border-radius: 20px;
+    margin-top: 10px;
+    border-color: rgb(237, 183, 108);
+    box-shadow: 5px 5px 25px -10px rgba(0,0,0,0.5);
+}
+
+ul li {
+    padding-left: 15px;
+    text-align: left;
+    font-size: 30px;
+    font-weight: 200;
+    display: flex;
+    align-items: center;
+    color:rgb(73, 72, 71);
+}
+
+.listStyle input {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    cursor: pointer;
+    
+}
+.listBlock{
+    display: flex;
+    flex-direction: column;
+    height: 45vh;
+    overflow-y: scroll;
+    padding-bottom: 2rem;
+}
+  
+.listStyle{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
