@@ -11,14 +11,12 @@ const Content = ()=> {
 
 
      const handleChange = (event)=> {
-        console.log(event.target.value)
         setText(event.target.value)
      }
     
     const callApi = async()=> {
   
         const res = await axios.get("https://api.shrtco.de/v2/shorten?url="+text);
-        console.log(res.data.result);
         setList((old)=>{
             const newObj = {
                 link:text,
