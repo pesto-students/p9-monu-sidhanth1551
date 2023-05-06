@@ -1,0 +1,48 @@
+.shortDivs2{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(249, 248, 249);
+    border: 0.5px solid black;
+    width: 130vh;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+
+}
+.shortDivs3{
+    display: flex;
+    flex-direction: row;
+}
+.shortDivs1{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(249, 248, 249);
+    width: 130vh;
+    height: 2rem;
+    border-radius: 1rem;
+    padding: 2rem;
+    box-shadow: 5px 5px 25px -10px rgba(0,0,0,0.5);
+    margin-top: 10px;
+}
+#shortLink{
+     color: #3ce3e3;
+     padding-left: 8%;
+}
+.copy{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding: 0px,6px;
+    height: 20px;
+    width: 30px;
+}
+#slink{
+    color: #3ce3e3;
+}
